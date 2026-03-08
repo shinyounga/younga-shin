@@ -20,7 +20,7 @@ export const experience: ExperienceItem[] = [
     titleKr: "토목환경공학과 석사과정",
     organization: "Yonsei University",
     organizationKr: "연세대학교",
-    period: "2024 — Present",
+    period: "2024.09 — Present",
     sortYear: 2026,
     description: "Smart Infrastructure Laboratory, advised by Prof. Hongjo Kim",
     descriptionKr: "스마트인프라연구실, 김홍조 교수 지도",
