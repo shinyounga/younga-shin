@@ -1,6 +1,6 @@
 "use client";
 
-import { MapPin, GraduationCap, Film, Mail, Github, Linkedin, BookOpen, ExternalLink } from "lucide-react";
+import { MapPin, GraduationCap, Film, Mail, Github, Linkedin, BookOpen, PenLine, Instagram, Fingerprint } from "lucide-react";
 import { siteConfig } from "@/data/siteConfig";
 import SectionTitle from "../ui/SectionTitle";
 import ScrollReveal from "../ui/ScrollReveal";
@@ -11,10 +11,10 @@ const socialLinks = [
   { key: "github", icon: Github, label: "GitHub", href: siteConfig.social.github },
   { key: "linkedin", icon: Linkedin, label: "LinkedIn", href: siteConfig.social.linkedin },
   { key: "scholar", icon: BookOpen, label: "Google Scholar", href: siteConfig.social.scholar },
-  { key: "orcid", icon: ExternalLink, label: "ORCID", href: siteConfig.social.orcid },
+  { key: "orcid", icon: Fingerprint, label: "ORCID", href: siteConfig.social.orcid },
   { key: "imdb", icon: Film, label: "IMDb", href: siteConfig.social.imdb },
-  { key: "blog", icon: ExternalLink, label: "Blog", href: siteConfig.social.blog },
-  { key: "instagram", icon: ExternalLink, label: "Instagram", href: siteConfig.social.instagram },
+  { key: "blog", icon: PenLine, label: "Blog", href: siteConfig.social.blog },
+  { key: "instagram", icon: Instagram, label: "Instagram", href: siteConfig.social.instagram },
 ];
 
 export default function AboutSection() {
