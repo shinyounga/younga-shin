@@ -63,11 +63,11 @@ export const experience: ExperienceItem[] = [
     titleKr: "교환학생 — 미디어커뮤니케이션학",
     organization: "ISTC — Institut des Stratégies et Techniques de Communication, Lille, France",
     organizationKr: "ISTC — 커뮤니케이션 전략기술연구소, 프랑스 릴",
-    period: "2023.08 — 2023.12",
+    period: "2023.08 — 2024.01",
     description:
-      "Focus: Branding & Visual Identity, Intercultural Communication, Global Brand Strategy",
+      "Studied Photoshop & Illustrator for content planning/production, consumer behavior theory for global brand strategy analysis, and era-specific brand communication strategy research with content creation",
     descriptionKr:
-      "전공: 브랜딩 & 비주얼 아이덴티티, 다문화 커뮤니케이션, 글로벌 브랜드 전략",
+      "포토샵·일러스트레이터를 활용한 콘텐츠 기획·제작, 소비자 행동 이론 기반 글로벌 브랜드 전략 분석·평가·제안, 시대별 브랜드 커뮤니케이션 전략 연구 및 콘텐츠 제작 등 다양한 수업 수강",
   },
 
   {
@@ -180,12 +180,12 @@ export const experience: ExperienceItem[] = [
     type: "volunteer",
     title: "Barrier-Free Film Education Volunteer",
     titleKr: "배리어프리 영화 교육봉사",
-    organization: "Nanumelbag (Living Lab)",
-    organizationKr: "나누멜바그 (리빙랩)",
-    period: "2019 — 2020",
+    organization: "Dongguk University Film & Digital Media — Nanumelbag",
+    organizationKr: "동국대학교 영화영상학과 나누멜바그",
+    period: "2019.03 — 2020.12",
     description:
-      "Taught youth to create barrier-free films; created audio descriptions for Seoul Senior Film Festival",
+      "Barrier-free film education volunteer club: taught middle/high school students filmmaking and barrier-free concepts, guided full production process, completed barrier-free training, produced barrier-free versions of student films, and organized screening events",
     descriptionKr:
-      "청소년과 함께 배리어프리 영화를 만드는 교육봉사; 서울노인영화제 폐막작 배리어프리 화면해설 제작",
+      "중고등학생과 함께 배리어프리 영화를 만드는 교육봉사 동아리. 영화와 배리어프리에 대한 교육을 진행하며 영화 제작의 전반적인 과정을 함께 수행. 배리어프리 교육 이수 후 완성작을 배리어프리 버전으로 제작하고 상영회까지 진행",
   },
 ];
