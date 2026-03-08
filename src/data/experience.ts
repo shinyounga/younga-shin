@@ -115,6 +115,19 @@ export const experience: ExperienceItem[] = [
     ],
   },
 
+  {
+    type: "work",
+    title: "Lab & Experiment Video Content Production TA",
+    titleKr: "실험·실습 동영상 제작 교과목 조교",
+    organization: "Yonsei University — Center for Teaching & Learning Innovation",
+    organizationKr: "연세대학교 교무처 교수학습혁신센터",
+    period: "2024-2",
+    description:
+      "Content production assistant for Engineering Information Processing (ENG1108) lab/experiment video course",
+    descriptionKr:
+      "공학정보처리(ENG1108) 실험·실습 동영상 콘텐츠 제공 강좌의 효과적 운영을 위한 콘텐츠 제작 조교",
+  },
+
   // === Activities ===
   {
     type: "activity",
