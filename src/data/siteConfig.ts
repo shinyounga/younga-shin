@@ -22,6 +22,7 @@ export const siteConfig = {
     { label: "Skills", href: "#skills" },
     { label: "Research", href: "#projects" },
     { label: "Publications", href: "#publications" },
+    { label: "SBS", href: "#sbs-works" },
     { label: "Films", href: "#filmography" },
     { label: "Contact", href: "#contact" },
   ],

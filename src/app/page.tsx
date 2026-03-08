@@ -9,6 +9,7 @@ import ExperienceSection from "@/components/sections/ExperienceSection";
 import SkillsSection from "@/components/sections/SkillsSection";
 import ProjectsSection from "@/components/sections/ProjectsSection";
 import PublicationsSection from "@/components/sections/PublicationsSection";
+import SbsWorksSection from "@/components/sections/SbsWorksSection";
 import FilmographySection from "@/components/sections/FilmographySection";
 import AwardsSection from "@/components/sections/AwardsSection";
 import CertificationsSection from "@/components/sections/CertificationsSection";
@@ -26,6 +27,7 @@ export default function Home() {
         <ProjectsSection />
         <PublicationsSection />
         <AwardsSection />
+        <SbsWorksSection />
         <FilmographySection />
         <CertificationsSection />
         <ContactSection />

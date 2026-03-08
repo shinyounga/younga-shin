@@ -27,10 +27,11 @@ export const conferences: Publication[] = [
     authors: "Shin, Y., & Kim, H.",
     year: 2024,
     title:
-      "Sensor Network-Based Monitoring Research Trends for Levee Failure Risk Assessment",
+      "[P-008] Sensor Network-Based Monitoring Research Trends for Levee Failure Risk Assessment (Poster Presentation)",
     venue:
-      "Proceedings of the Korea Institute of Construction Engineering and Management Conference",
-    pages: "pp. 134-135",
+      "Proceedings of the Korea Institute of Construction Engineering and Management Conference (KICEM 2024-11)",
+    pages: "pp. 134-135 (2 pages)",
+    link: "https://www.auric.or.kr/user/rdoc/DocRdoc.aspx?returnVal=RD_R&dn=432803",
   },
   {
     type: "conference",
