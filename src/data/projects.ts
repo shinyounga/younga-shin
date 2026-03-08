@@ -12,16 +12,6 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: "AI-Based Worker Health Framework",
-    titleKr: "AI 기반 건설 근로자 건강 모니터링 프레임워크",
-    description:
-      "Developed a deep learning framework for monitoring construction worker health using wearable sensor data and environmental factors. Integrates real-time IoT data streams for proactive safety alerts.",
-    descriptionKr:
-      "웨어러블 센서 데이터와 환경 요인을 활용한 건설 근로자 건강 모니터링 딥러닝 프레임워크 개발. 실시간 IoT 데이터 스트림을 통한 선제적 안전 경고 시스템 구현.",
-    tags: ["PyTorch", "IoT", "Deep Learning", "Safety"],
-    featured: true,
-  },
-  {
     title: "Water Level Forecasting System",
     titleKr: "수위 예측 시스템",
     description:
