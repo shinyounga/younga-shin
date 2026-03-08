@@ -95,16 +95,16 @@ export interface ResearchProject {
 export const researchProjects: ResearchProject[] = [
   {
     title:
-      "Development of Autonomous Evolutionary AI-Based Smart Sensing Platform for Early Detection and Proactive Response to Levee Failures",
+      "Autonomous Evolutionary AI-Based Smart Sensing Platform for Early Detection and Proactive Response to Levee Failures",
     titleKr:
       "자율 진화형 인공지능 기반 제방 붕괴 조기 감지 및 선제적 대응 스마트 센싱 플랫폼 개발",
     period: "2024 — 2028",
-    funder: "National Research Foundation of Korea — 2024 STEAM Research Program (Future Pioneer Strategic)",
-    funderKr: "한국연구재단 — 2024 STEAM 연구사업 (미래유망파이오니어(전략형))",
+    funder: "National Research Foundation of Korea — Principal Investigator, 2024 STEAM Pioneer Program",
+    funderKr: "한국연구재단 — 주관연구기관, 2024 STEAM 연구사업 (미래유망파이오니어(전략형))",
     description:
-      "Lead research institution. Developing AI-driven systems for real-time levee failure monitoring and early warning",
+      "Developing AI-driven systems for real-time levee failure monitoring and early warning",
     descriptionKr:
-      "주관연구기관. 실시간 제방 붕괴 모니터링 및 조기 경보를 위한 AI 기반 시스템 개발",
+      "실시간 제방 붕괴 모니터링 및 조기 경보를 위한 AI 기반 시스템 개발",
   },
   {
     title:
