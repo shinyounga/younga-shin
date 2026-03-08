@@ -29,7 +29,7 @@ export const filmography: FilmWork[] = [
 
   // Lighting
   { year: 2019, title: "When Looking into the Abyss", titleKr: "심연을 들여다볼 때", role: "Lighting Crew", roleKr: "조명부", category: "lighting" },
-  { year: 2024, title: "Suddenly, Home", titleKr: "갑자기 분위기 스파시바", role: "Lighting Crew", roleKr: "조명부", category: "lighting", link: "https://www.imdb.com/name/nm17437797/", notable: "IMDb" },
+  { year: 2024, title: "Suddenly, Home", titleKr: "갑자기 분위기 스파시바", role: "Lighting Crew", roleKr: "조명부", category: "lighting", link: "https://www.imdb.com/name/nm17437797/", notable: "IMDb / KOFIC Independent Art Film Production Support 2020 (Short Film)", notableKr: "IMDb / 2020 상반기 독립예술영화제작지원사업 단편부문 선정 (영화진흥위원회)" },
   { year: 2020, title: "Plant", titleKr: "식물", role: "Lighting", roleKr: "조명", category: "lighting" },
   { year: 2020, title: "Jeans", titleKr: "청바지", role: "Lighting", roleKr: "조명", category: "lighting" },
   { year: 2021, title: "Film", titleKr: "필름", role: "Lighting Crew", roleKr: "조명부", category: "lighting" },
@@ -42,7 +42,7 @@ export const filmography: FilmWork[] = [
 
   // Other roles
   { year: 2019, title: "Picnic", titleKr: "소풍", role: "Production", roleKr: "제작부", category: "production" },
-  { year: 2024, title: "Suddenly, Home", titleKr: "갑자기 분위기 스파시바", role: "Title Design", roleKr: "타이틀 디자인", category: "other", link: "https://www.imdb.com/name/nm17437797/", notable: "IMDb" },
+  { year: 2024, title: "Suddenly, Home", titleKr: "갑자기 분위기 스파시바", role: "Title Design", roleKr: "타이틀 디자인", category: "other", link: "https://www.imdb.com/name/nm17437797/", notable: "IMDb / KOFIC Independent Art Film Production Support 2020 (Short Film)", notableKr: "IMDb / 2020 상반기 독립예술영화제작지원사업 단편부문 선정 (영화진흥위원회)" },
   { year: 2020, title: "Complete Warmth", titleKr: "온전한 온기", role: "Producer", roleKr: "제작", category: "production" },
   { year: 2020, title: "Interview", titleKr: "인터뷰", role: "Sound", roleKr: "사운드", category: "other" },
   { year: 2020, title: "Complex", titleKr: "콤플렉스", role: "Actor", roleKr: "배우", category: "other" },
