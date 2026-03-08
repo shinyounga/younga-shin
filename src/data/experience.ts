@@ -123,8 +123,8 @@ export const experience: ExperienceItem[] = [
     titleKr: "프리랜서 연출부 & 촬영부",
     organization: "Various Productions",
     organizationKr: "다수 프로덕션",
-    period: "2020 — 2022",
-    sortYear: 2022,
+    period: "2019 — 2024",
+    sortYear: 2024,
     description:
       "Worked on commercial ads, MVs, and promotional videos",
     descriptionKr:
