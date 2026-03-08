@@ -8,31 +8,13 @@ interface SkillBadgeProps {
   icon?: string;
 }
 
-const DEVICON_CDN = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons";
-
-const iconPaths: Record<string, string> = {
-  python: `${DEVICON_CDN}/python/python-original.svg`,
-  pytorch: `${DEVICON_CDN}/pytorch/pytorch-original.svg`,
-  docker: `${DEVICON_CDN}/docker/docker-original.svg`,
-  git: `${DEVICON_CDN}/git/git-original.svg`,
-  linux: `${DEVICON_CDN}/linux/linux-original.svg`,
-  typescript: `${DEVICON_CDN}/typescript/typescript-original.svg`,
-  nextjs: `${DEVICON_CDN}/nextjs/nextjs-original.svg`,
-  figma: `${DEVICON_CDN}/figma/figma-original.svg`,
-  photoshop: `${DEVICON_CDN}/photoshop/photoshop-original.svg`,
-  premierepro: `${DEVICON_CDN}/premierepro/premierepro-original.svg`,
-  aftereffects: `${DEVICON_CDN}/aftereffects/aftereffects-original.svg`,
-  notion: `${DEVICON_CDN}/notion/notion-original.svg`,
-  tailwindcss: `${DEVICON_CDN}/tailwindcss/tailwindcss-original.svg`,
-  latex: `${DEVICON_CDN}/latex/latex-original.svg`,
-};
-
 export default function SkillBadge({ name, level, icon }: SkillBadgeProps) {
-  const iconUrl = icon ? iconPaths[icon] : null;
+  const basePath = process.env.NODE_ENV === "production" ? "/younga-shin" : "";
+  const iconUrl = icon ? `${basePath}/icons/${icon}.svg` : null;
 
   return (
     <div className="flex items-center gap-3 rounded-lg bg-gray-50 px-4 py-2.5 transition-colors hover:bg-indigo-50">
-      {iconUrl && (
+      {iconUrl ? (
         <img
           src={iconUrl}
           alt={name}
@@ -41,6 +23,8 @@ export default function SkillBadge({ name, level, icon }: SkillBadgeProps) {
           className="h-5 w-5 shrink-0 object-contain"
           loading="lazy"
         />
+      ) : (
+        <div className="h-5 w-5 shrink-0" />
       )}
       <span className="flex-1 text-sm font-medium text-gray-700">{name}</span>
       <div className="flex gap-1">
