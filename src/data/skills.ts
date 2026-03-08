@@ -22,7 +22,6 @@ export const skills: SkillCategory[] = [
       { name: "Deep Learning", level: 4 },
       { name: "NLP / RAG", level: 4 },
       { name: "Computer Vision", level: 4 },
-      { name: "LLM Applications", level: 3 },
     ],
   },
   {
@@ -30,12 +29,11 @@ export const skills: SkillCategory[] = [
     categoryKr: "엔지니어링",
     icon: "Building",
     skills: [
-      { name: "BIM / Revit", level: 4 },
+      { name: "BIM / Revit", level: 4, icon: "revit" },
       { name: "Docker", level: 3, icon: "docker" },
       { name: "Git / GitHub", level: 4, icon: "git" },
       { name: "Linux", level: 3, icon: "linux" },
       { name: "Data Analysis", level: 4 },
-      { name: "IoT Sensors", level: 3 },
     ],
   },
   {
@@ -43,7 +41,7 @@ export const skills: SkillCategory[] = [
     categoryKr: "크리에이티브",
     icon: "Film",
     skills: [
-      { name: "Final Cut Pro", level: 5 },
+      { name: "Final Cut Pro", level: 5, icon: "finalcutpro" },
       { name: "Premiere Pro", level: 5, icon: "premierepro" },
       { name: "After Effects", level: 4, icon: "aftereffects" },
       { name: "Photoshop", level: 4, icon: "photoshop" },
@@ -56,11 +54,7 @@ export const skills: SkillCategory[] = [
     categoryKr: "웹 / 도구",
     icon: "Code",
     skills: [
-      { name: "Next.js", level: 3, icon: "nextjs" },
-      { name: "TypeScript", level: 3, icon: "typescript" },
-      { name: "Tailwind CSS", level: 3, icon: "tailwindcss" },
       { name: "Figma", level: 3, icon: "figma" },
-      { name: "LaTeX", level: 4, icon: "latex" },
       { name: "Notion", level: 5, icon: "notion" },
     ],
   },
