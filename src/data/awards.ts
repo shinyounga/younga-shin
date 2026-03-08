@@ -71,11 +71,11 @@ export const awards: AwardItem[] = [
     organizationKr: "동국대학교",
   },
   {
-    year: "2020.11",
-    title: "Cultural Heritage Video Contest — Idea Bank Award",
-    titleKr: "문화유산채널 영상공모전 — 아이디어뱅크상",
-    organization: "Cultural Heritage Administration",
-    organizationKr: "문화재청",
+    year: "2020.12",
+    title: "2020 Cultural Heritage Video Contest — Idea Bank Award",
+    titleKr: "2020 문화유산채널 영상공모전 — 아이디어뱅크상",
+    organization: "Korea Cultural Heritage Foundation",
+    organizationKr: "한국문화재재단",
   },
 ];
 
