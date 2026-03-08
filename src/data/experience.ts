@@ -26,13 +26,13 @@ export const experience: ExperienceItem[] = [
       "GPA: 4.22 / 4.3",
       "Focus: AI & Deep Learning for Construction Engineering",
       "Research: Worker health monitoring, Water level forecasting, RAG systems",
-      "TA Scholarship (2024-2): Engineering Information Processing (ENG1108)",
+      "Teaching Assistant (2024-2): Engineering Information Processing (ENG1108)",
     ],
     detailsKr: [
       "GPA: 4.22 / 4.3",
       "연구 분야: 건설공학을 위한 AI 및 딥러닝",
       "연구 주제: 작업자 건강 모니터링, 수위 예측, RAG 시스템",
-      "재학조교장학금(TA) (2024-2학기): 공학정보처리 (ENG1108)",
+      "재학조교(TA) (2024-2학기): 공학정보처리 (ENG1108)",
     ],
   },
   {
