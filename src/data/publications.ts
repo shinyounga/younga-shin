@@ -24,17 +24,6 @@ export const publications: Publication[] = [
 export const conferences: Publication[] = [
   {
     type: "conference",
-    authors: "Shin, Y., & Kim, H.",
-    year: 2024,
-    title:
-      "[P-008] Sensor Network-Based Monitoring Research Trends for Levee Failure Risk Assessment (Poster Presentation)",
-    venue:
-      "Proceedings of the Korea Institute of Construction Engineering and Management Conference (KICEM 2024-11)",
-    pages: "pp. 134-135 (2 pages)",
-    link: "https://www.auric.or.kr/user/rdoc/DocRdoc.aspx?returnVal=RD_R&dn=432803",
-  },
-  {
-    type: "conference",
     authors: "Shin, Y., Choi, K., Kim, Y., & Kim, H.",
     year: 2025,
     title:
@@ -43,5 +32,16 @@ export const conferences: Publication[] = [
       "Proceedings of the Creative Construction Conference (CCC 2025), Zadar, Croatia",
     pages: "pp. 416-424",
     doi: "10.22260/CCC2025/0050",
+  },
+  {
+    type: "conference",
+    authors: "Shin, Y., & Kim, H.",
+    year: 2024,
+    title:
+      "[P-008] Sensor Network-Based Monitoring Research Trends for Levee Failure Risk Assessment (Poster Presentation)",
+    venue:
+      "Proceedings of the Korea Institute of Construction Engineering and Management Conference (KICEM 2024-11)",
+    pages: "pp. 134-135 (2 pages)",
+    link: "https://www.auric.or.kr/user/rdoc/DocRdoc.aspx?returnVal=RD_R&dn=432803",
   },
 ];

@@ -35,9 +35,13 @@ const typeOrder = ["education", "work", "activity", "award", "volunteer"] as con
 export default function ExperienceSection() {
   const { lang } = useLang();
 
-  const sorted = [...experience].sort(
-    (a, b) => typeOrder.indexOf(a.type) - typeOrder.indexOf(b.type)
-  );
+  const sorted = [...experience].sort((a, b) => {
+    const typeA = typeOrder.indexOf(a.type);
+    const typeB = typeOrder.indexOf(b.type);
+    if (typeA !== typeB) return typeA - typeB;
+    // Within same type, newest first
+    return (b.sortYear ?? 0) - (a.sortYear ?? 0);
+  });
 
   return (
     <section id="experience" className="bg-gray-50 py-24">

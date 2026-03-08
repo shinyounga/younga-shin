@@ -5,6 +5,7 @@ export interface ExperienceItem {
   organization: string;
   organizationKr?: string;
   period: string;
+  sortYear?: number; // for chronological sorting (higher = more recent)
   description?: string;
   descriptionKr?: string;
   details?: string[];
@@ -12,7 +13,7 @@ export interface ExperienceItem {
 }
 
 export const experience: ExperienceItem[] = [
-  // === Education ===
+  // === Education (newest first) ===
   {
     type: "education",
     title: "M.S. in Civil and Environmental Engineering",
@@ -20,6 +21,7 @@ export const experience: ExperienceItem[] = [
     organization: "Yonsei University",
     organizationKr: "연세대학교",
     period: "2024 — Present",
+    sortYear: 2026,
     description: "Smart Infrastructure Laboratory, advised by Prof. Hongjo Kim",
     descriptionKr: "스마트인프라연구실, 김홍조 교수 지도",
     details: [
@@ -37,11 +39,25 @@ export const experience: ExperienceItem[] = [
   },
   {
     type: "education",
+    title: "Exchange Student — Media Communication",
+    titleKr: "교환학생 — 미디어커뮤니케이션학",
+    organization: "ISTC — Institut des Stratégies et Techniques de Communication, Lille, France",
+    organizationKr: "ISTC — 커뮤니케이션 전략기술연구소, 프랑스 릴",
+    period: "2023.08 — 2024.01",
+    sortYear: 2024,
+    description:
+      "Studied Photoshop & Illustrator for content planning/production, consumer behavior theory for global brand strategy analysis, and era-specific brand communication strategy research with content creation",
+    descriptionKr:
+      "포토샵·일러스트레이터를 활용한 콘텐츠 기획·제작, 소비자 행동 이론 기반 글로벌 브랜드 전략 분석·평가·제안, 시대별 브랜드 커뮤니케이션 전략 연구 및 콘텐츠 제작 등 다양한 수업 수강",
+  },
+  {
+    type: "education",
     title: "B.A. in Film and Digital Media (Minor: Media Communication)",
     titleKr: "영화영상학과 학사 (부전공: 미디어커뮤니케이션학)",
     organization: "Dongguk University",
     organizationKr: "동국대학교",
     period: "2019 — 2024",
+    sortYear: 2024,
     description: "Summa Cum Laude, Advisor: Prof. Jongho Park",
     descriptionKr: "최우등 졸업, 지도교수: 박종호",
     details: [
@@ -59,27 +75,28 @@ export const experience: ExperienceItem[] = [
   },
   {
     type: "education",
-    title: "Exchange Student — Media Communication",
-    titleKr: "교환학생 — 미디어커뮤니케이션학",
-    organization: "ISTC — Institut des Stratégies et Techniques de Communication, Lille, France",
-    organizationKr: "ISTC — 커뮤니케이션 전략기술연구소, 프랑스 릴",
-    period: "2023.08 — 2024.01",
-    description:
-      "Studied Photoshop & Illustrator for content planning/production, consumer behavior theory for global brand strategy analysis, and era-specific brand communication strategy research with content creation",
-    descriptionKr:
-      "포토샵·일러스트레이터를 활용한 콘텐츠 기획·제작, 소비자 행동 이론 기반 글로벌 브랜드 전략 분석·평가·제안, 시대별 브랜드 커뮤니케이션 전략 연구 및 콘텐츠 제작 등 다양한 수업 수강",
-  },
-
-  {
-    type: "education",
     title: "Baehwa Girls' High School (Liberal Arts Track)",
     titleKr: "배화여자고등학교 (인문계)",
     organization: "Baehwa Girls' High School, Seoul",
     organizationKr: "배화여자고등학교, 서울특별시",
     period: "2016.03 — 2019.02",
+    sortYear: 2019,
   },
 
-  // === Work ===
+  // === Work (newest first) ===
+  {
+    type: "work",
+    title: "Lab & Experiment Video Content Production TA",
+    titleKr: "실험·실습 동영상 제작 교과목 조교",
+    organization: "Yonsei University — Center for Teaching & Learning Innovation",
+    organizationKr: "연세대학교 교무처 교수학습혁신센터",
+    period: "2024-2",
+    sortYear: 2024,
+    description:
+      "Content production assistant for Engineering Information Processing (ENG1108) lab/experiment video course",
+    descriptionKr:
+      "공학정보처리(ENG1108) 실험·실습 동영상 콘텐츠 제공 강좌의 효과적 운영을 위한 콘텐츠 제작 조교",
+  },
   {
     type: "work",
     title: "Sub-filming PD",
@@ -87,6 +104,7 @@ export const experience: ExperienceItem[] = [
     organization: "SBS NEWS (스브스뉴스)",
     organizationKr: "SBS 뉴스 (스브스뉴스)",
     period: "2021.07 — 2024.02",
+    sortYear: 2024,
     description:
       "Digital content filming across multiple flagship programs",
     descriptionKr: "다수 대표 프로그램의 디지털 콘텐츠 서브촬영",
@@ -106,6 +124,7 @@ export const experience: ExperienceItem[] = [
     organization: "Various Productions",
     organizationKr: "다수 프로덕션",
     period: "2020 — 2022",
+    sortYear: 2022,
     description:
       "Worked on commercial ads, MVs, and promotional videos",
     descriptionKr:
@@ -124,40 +143,7 @@ export const experience: ExperienceItem[] = [
     ],
   },
 
-  {
-    type: "work",
-    title: "Lab & Experiment Video Content Production TA",
-    titleKr: "실험·실습 동영상 제작 교과목 조교",
-    organization: "Yonsei University — Center for Teaching & Learning Innovation",
-    organizationKr: "연세대학교 교무처 교수학습혁신센터",
-    period: "2024-2",
-    description:
-      "Content production assistant for Engineering Information Processing (ENG1108) lab/experiment video course",
-    descriptionKr:
-      "공학정보처리(ENG1108) 실험·실습 동영상 콘텐츠 제공 강좌의 효과적 운영을 위한 콘텐츠 제작 조교",
-  },
-
-  // === Activities ===
-  {
-    type: "activity",
-    title: "Guest Writer — Indie Magazine 'Short Bus'",
-    titleKr: "객원필진 — 인디매거진 숏버스",
-    organization: "Funnycon — Indie Magazine Short Bus",
-    organizationKr: "퍼니콘 — 인디매거진 숏버스",
-    description:
-      "Contributing writer for an indie magazine introducing independent short films to the public, covering domestic and international short films and film festival issues",
-    descriptionKr:
-      "독립 단편영화를 대중에게 소개하며 국내외 단편영화 및 영화제와 관련된 이슈들을 다루는 인디매거진 객원필진 활동",
-    period: "2021.03",
-    details: [
-      "Magazine: https://post.naver.com/funnycon",
-      "Article: https://m.post.naver.com/viewer/postView.nhn?volumeNo=30979715&memberNo=16396899",
-    ],
-    detailsKr: [
-      "매거진: https://post.naver.com/funnycon",
-      "기고글: https://m.post.naver.com/viewer/postView.nhn?volumeNo=30979715&memberNo=16396899",
-    ],
-  },
+  // === Activities (newest first) ===
   {
     type: "activity",
     title: "National Supporters 'Land Lover' — Video Journalist",
@@ -165,6 +151,7 @@ export const experience: ExperienceItem[] = [
     organization: "LX Korea Land & Geospatial Informatix Corp.",
     organizationKr: "LX 한국국토정보공사",
     period: "2022",
+    sortYear: 2022,
     description: "Video planning, filming, and editing for promotional content",
     descriptionKr: "영상 기획, 촬영 및 편집",
     details: [
@@ -180,6 +167,27 @@ export const experience: ExperienceItem[] = [
       "3D 문화유산 서비스 소개 영상",
     ],
   },
+  {
+    type: "activity",
+    title: "Guest Writer — Indie Magazine 'Short Bus'",
+    titleKr: "객원필진 — 인디매거진 숏버스",
+    organization: "Funnycon — Indie Magazine Short Bus",
+    organizationKr: "퍼니콘 — 인디매거진 숏버스",
+    period: "2021.03",
+    sortYear: 2021,
+    description:
+      "Contributing writer for an indie magazine introducing independent short films to the public, covering domestic and international short films and film festival issues",
+    descriptionKr:
+      "독립 단편영화를 대중에게 소개하며 국내외 단편영화 및 영화제와 관련된 이슈들을 다루는 인디매거진 객원필진 활동",
+    details: [
+      "Magazine: https://post.naver.com/funnycon",
+      "Article: https://m.post.naver.com/viewer/postView.nhn?volumeNo=30979715&memberNo=16396899",
+    ],
+    detailsKr: [
+      "매거진: https://post.naver.com/funnycon",
+      "기고글: https://m.post.naver.com/viewer/postView.nhn?volumeNo=30979715&memberNo=16396899",
+    ],
+  },
 
   // === Awards ===
   {
@@ -187,8 +195,9 @@ export const experience: ExperienceItem[] = [
     title: "Cultural Heritage Video Contest — Idea Bank Award",
     titleKr: "문화유산채널 영상공모전 — 아이디어뱅크상 수상",
     organization: "Korea Cultural Heritage Foundation",
-    organizationKr: "문화유산채널",
-    period: "2020",
+    organizationKr: "한국문화재재단",
+    period: "2020.12",
+    sortYear: 2020,
     description:
       "Award-winning short film <At Changgyeonggung Palace> — Filming & planning",
     descriptionKr:
@@ -203,6 +212,7 @@ export const experience: ExperienceItem[] = [
     organization: "Dongguk University Film & Digital Media — Nanumelbag",
     organizationKr: "동국대학교 영화영상학과 나누멜바그",
     period: "2019.03 — 2020.12",
+    sortYear: 2020,
     description:
       "Barrier-free film education volunteer club: taught middle/high school students filmmaking and barrier-free concepts, guided full production process, completed barrier-free training, produced barrier-free versions of student films, and organized screening events",
     descriptionKr:
