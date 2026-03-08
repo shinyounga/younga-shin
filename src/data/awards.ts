@@ -9,23 +9,23 @@ export interface AwardItem {
 export const scholarships: AwardItem[] = [
   {
     year: "2026.02",
-    title: "Jongno-gu Scholarship Foundation Scholarship",
+    title: "Academic Excellence Scholarship",
     titleKr: "종로구장학회 장학금 (2026-1학기)",
-    organization: "Jongno-gu Scholarship Foundation",
+    organization: "Jongno-gu Scholarship Foundation, Korea",
     organizationKr: "종로구장학회",
   },
   {
     year: "2025.08",
-    title: "Jongno-gu Scholarship Foundation Scholarship",
+    title: "Academic Excellence Scholarship",
     titleKr: "종로구장학회 장학금 (2025-2학기)",
-    organization: "Jongno-gu Scholarship Foundation",
+    organization: "Jongno-gu Scholarship Foundation, Korea",
     organizationKr: "종로구장학회",
   },
   {
     year: "2025.02",
-    title: "Jongno-gu Scholarship Foundation Scholarship",
+    title: "Academic Excellence Scholarship",
     titleKr: "종로구장학회 장학금 (2025-1학기)",
-    organization: "Jongno-gu Scholarship Foundation",
+    organization: "Jongno-gu Scholarship Foundation, Korea",
     organizationKr: "종로구장학회",
   },
   {
