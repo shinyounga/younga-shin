@@ -99,8 +99,8 @@ export const experience: ExperienceItem[] = [
   },
   {
     type: "work",
-    title: "Sub-filming PD",
-    titleKr: "서브촬영 PD",
+    title: "Videographing PD, Freelance",
+    titleKr: "서브촬영 PD, 프리랜서",
     organization: "SBS NEWS (스브스뉴스)",
     organizationKr: "SBS 뉴스 (스브스뉴스)",
     period: "2021.07 — 2024.02",
