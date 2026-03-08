@@ -108,28 +108,28 @@ export const researchProjects: ResearchProject[] = [
   },
   {
     title:
-      "Vision-Based Safety Securing Technology for Temporary Structure Installation and Dismantlement",
-    titleKr:
-      "가시설 설치·해체를 위한 비전 기반 안전 확보 기술",
-    period: "May 2024 — Present",
-    funder: "Korea Agency for Infrastructure Technology Advancement",
-    funderKr: "국토교통과학기술진흥원",
-    description:
-      "Development of a dataset for object detection of PPE (Personal Protective Equipment)",
-    descriptionKr:
-      "개인보호장비(PPE) 객체 감지를 위한 데이터셋 구축",
-  },
-  {
-    title:
       "Development of Intelligent CCTV-AI-Based Construction Site Video Analysis Technology",
     titleKr:
-      "지능형 CCTV-AI 기반 건설현장 영상 분석 기술 개발",
-    period: "May 2024 — Present",
-    funder: "Kumho Engineering & Construction",
-    funderKr: "금호건설",
+      "지능형 CCTV-AI 기반 건설현장 영상분석 기술 개발",
+    period: "2021 — 2022; 2022 — 2024",
+    funder: "Kumho Engineering & Construction — Principal Investigator",
+    funderKr: "금호건설 — 주관연구기관",
     description:
       "Producing technical demonstration and promotional videos for AI model validation and stakeholder presentation",
     descriptionKr:
       "AI 모델 검증 및 이해관계자 발표를 위한 기술 시연 및 홍보 영상 제작",
+  },
+  {
+    title:
+      "Vision-Based Safety Securing Technology for Temporary Structure Installation and Dismantlement",
+    titleKr:
+      "영상 기반 임시 구조물 설치 해체 단계 안전 확보 기술",
+    period: "2020 — 2025",
+    funder: "The Korea Agency for Infrastructure Technology and Advancement — Co-Principal Investigator, Smart Construction Technology Development Program (Task 9)",
+    funderKr: "국토교통과학기술진흥원 — 공동연구기관, 스마트건설기술개발사업 9세부",
+    description:
+      "Development of a dataset for object detection of PPE (Personal Protective Equipment)",
+    descriptionKr:
+      "개인보호장비(PPE) 객체 감지를 위한 데이터셋 구축",
   },
 ];
