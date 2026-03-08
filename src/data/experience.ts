@@ -140,6 +140,24 @@ export const experience: ExperienceItem[] = [
   // === Activities ===
   {
     type: "activity",
+    title: "Guest Writer — Indie Magazine 'Short Bus'",
+    titleKr: "객원필진 — 인디매거진 숏버스",
+    organization: "Funnycon — Indie Magazine Short Bus",
+    organizationKr: "퍼니콘 — 인디매거진 숏버스",
+    description:
+      "Contributing writer for an indie magazine introducing independent short films to the public, covering domestic and international short films and film festival issues",
+    descriptionKr:
+      "독립 단편영화를 대중에게 소개하며 국내외 단편영화 및 영화제와 관련된 이슈들을 다루는 인디매거진 객원필진 활동",
+    period: "2021.03",
+    details: [
+      "https://post.naver.com/funnycon",
+    ],
+    detailsKr: [
+      "https://post.naver.com/funnycon",
+    ],
+  },
+  {
+    type: "activity",
     title: "National Supporters 'Land Lover' — Video Journalist",
     titleKr: "국민 서포터즈 '랜드러버' — 영상기자",
     organization: "LX Korea Land & Geospatial Informatix Corp.",
