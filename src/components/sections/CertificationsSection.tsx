@@ -46,6 +46,11 @@ export default function CertificationsSection() {
                       <p className="text-xs text-gray-500">
                         {lang === "ko" ? cert.issuerKr : cert.issuer}
                       </p>
+                      {cert.credentialId && (
+                        <p className="text-xs text-gray-400 font-mono">
+                          ID: {cert.credentialId}
+                        </p>
+                      )}
                     </div>
                   </li>
                 ))}
