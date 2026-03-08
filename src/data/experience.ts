@@ -52,7 +52,7 @@ export const experience: ExperienceItem[] = [
   },
   {
     type: "education",
-    title: "B.A. in Film and Digital Media (Minor: Media Communication)",
+    title: "Bachelor of Arts, Film and Digital Media (Minor: Media Communication)",
     titleKr: "영화영상학과 학사 (부전공: 미디어커뮤니케이션학)",
     organization: "Dongguk University",
     organizationKr: "동국대학교",
