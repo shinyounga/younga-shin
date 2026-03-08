@@ -15,6 +15,7 @@ export const siteConfig = {
     scholar: "https://scholar.google.com/citations?hl=en&user=ghNiW3sAAAAJ",
     blog: "https://blog.naver.com/szeroa-",
     instagram: "https://www.instagram.com/zero.wooo/",
+    imdb: "https://www.imdb.com/name/nm17437797/",
   },
   navLinks: [
     { label: "About", href: "#about" },

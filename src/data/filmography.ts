@@ -19,9 +19,10 @@ export const filmography: FilmWork[] = [
   { year: 2021, title: "Shelf Life of a Peach", titleKr: "복숭아의 유통기한", role: "Assistant Director", roleKr: "조연출", category: "directing", notable: "26th City Film Festival Competition", notableKr: "제26회 도시영화제 경쟁부문" },
   { year: 2021, title: "Lee Chunja", titleKr: "이춘자씨", role: "Documentary Director", roleKr: "다큐 연출", category: "directing" },
   { year: 2022, title: "Not an Angel", titleKr: "천사가 아니야", role: "Assistant Director", roleKr: "조연출", category: "directing" },
-  { year: 2023, title: "Haenam Cabbage", titleKr: "해남배추", role: "Scripter", roleKr: "스크립터", category: "directing" },
+  { year: 2025, title: "Haenam Cabbage", titleKr: "해남배추", role: "Script & Continuity", roleKr: "스크립터", category: "directing", link: "https://www.imdb.com/name/nm17437797/", notable: "IMDb" },
 
   // Cinematography
+  { year: 2024, title: "Suddenly, Home", titleKr: "갑자기, 집", role: "Camera & Electrical", roleKr: "촬영부", category: "cinematography", link: "https://www.imdb.com/name/nm17437797/", notable: "IMDb (27min, Short/Drama/Family)" },
   { year: 2020, title: "Just Take a Dump", titleKr: "일단 똥을 싸라", role: "Cinematographer", roleKr: "촬영", category: "cinematography" },
   { year: 2020, title: "At Changgyeonggung", titleKr: "창경궁에서", role: "Cinematographer / Planner", roleKr: "촬영 / 기획", category: "cinematography", link: "https://www.youtube.com/watch?v=rFpjk3HAqvM" },
   { year: 2021, title: "Deliver Love with Flowers", titleKr: "꽃으로 마음을 전해요", role: "Cinematographer / Editor", roleKr: "촬영 / 편집", category: "cinematography", link: "https://youtu.be/9juBCtMlNB8" },

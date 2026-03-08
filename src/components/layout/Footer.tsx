@@ -1,6 +1,6 @@
 "use client";
 
-import { Github, Mail, Linkedin } from "lucide-react";
+import { Github, Mail, Linkedin, Film } from "lucide-react";
 import { siteConfig } from "@/data/siteConfig";
 import { useLang } from "@/lib/useLang";
 
@@ -32,6 +32,15 @@ export default function Footer() {
             aria-label="LinkedIn"
           >
             <Linkedin size={20} />
+          </a>
+          <a
+            href={siteConfig.social.imdb}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-400 transition-colors hover:text-gray-700"
+            aria-label="IMDb"
+          >
+            <Film size={20} />
           </a>
           <a
             href={`mailto:${siteConfig.email}`}

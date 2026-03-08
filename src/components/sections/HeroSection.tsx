@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Github, Mail, ArrowDown, Linkedin } from "lucide-react";
+import { Github, Mail, ArrowDown, Linkedin, Film } from "lucide-react";
 import { siteConfig } from "@/data/siteConfig";
 import { useLang } from "@/lib/useLang";
 
@@ -108,6 +108,15 @@ export default function HeroSection() {
           >
             <Linkedin size={18} />
             LinkedIn
+          </a>
+          <a
+            href={siteConfig.social.imdb}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/5 px-6 py-3 text-sm font-semibold text-white transition-all hover:bg-white/10"
+          >
+            <Film size={18} />
+            IMDb
           </a>
         </motion.div>
 
