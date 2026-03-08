@@ -12,12 +12,13 @@ export interface Publication {
 export const publications: Publication[] = [
   {
     type: "journal",
-    authors: "Choi, K., Jeong, M., Shin, Y., Ma, J., Kim, K., & Kim, H.",
-    year: 2025,
+    authors: "Choi, K., Jeong, M., Shin, Y., won Ma, J., Kim, K., & Kim, H.",
+    year: 2026,
     title:
-      "Construct-Rag: Contrastive Sentence Training & Retrieval Using Chunk Block-Based Text for RAG",
-    venue: "Available at SSRN 5205959",
-    link: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5205959",
+      "Retrieval optimization for construction documents in low-resource languages using contrastive sentence generation and matryoshka representation learning",
+    venue: "Automation in Construction, 182, 106749",
+    doi: "10.1016/j.autcon.2025.106749",
+    link: "https://doi.org/10.1016/j.autcon.2025.106749",
   },
 ];
 
