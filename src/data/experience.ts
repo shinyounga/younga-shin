@@ -106,8 +106,8 @@ export const experience: ExperienceItem[] = [
     period: "2021.07 — 2024.02",
     sortYear: 2024,
     description:
-      "Digital content filming across multiple flagship programs",
-    descriptionKr: "다수 대표 프로그램의 디지털 콘텐츠 서브촬영",
+      "Covered a wide range of locations including indoor studios, outdoor events, festivals, university campuses, city centers, e-sports venues, and museums, handling interviews, live streaming, and on-site sketch filming",
+    descriptionKr: "실내 스튜디오, 야외 행사장, 페스티벌, 대학가, 시내, e-스포츠, 박물관 등 다양한 현장에서 취재 및 인터뷰, 실시간 라이브 스트리밍, 현장 스케치 촬영",
     details: [
       "Programs: Moonmyung Express, Seoul List, Gagya, SBS News Original, Omokgyo Electronics, Don Education, Jaesu Survival",
       "Sub-filming across 50+ episodes",
