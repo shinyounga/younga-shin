@@ -25,9 +25,9 @@ export const projects: Project[] = [
     title: "Water Level Forecasting System",
     titleKr: "수위 예측 시스템",
     description:
-      "Built a time-series prediction model for levee monitoring and water level forecasting, presented at ISARC 2025. Combines hydrological data with deep learning for flood risk assessment.",
+      "Built a time-series prediction model for levee monitoring and water level forecasting, presented at CCC 2025. Combines hydrological data with deep learning for flood risk assessment.",
     descriptionKr:
-      "제방 모니터링 및 수위 예측을 위한 시계열 예측 모델 구축 (ISARC 2025 발표). 수문학적 데이터와 딥러닝을 결합한 홍수 위험 평가.",
+      "제방 모니터링 및 수위 예측을 위한 시계열 예측 모델 구축 (CCC 2025 발표). 수문학적 데이터와 딥러닝을 결합한 홍수 위험 평가.",
     tags: ["Time-Series", "PyTorch", "Hydrology", "Prediction"],
     featured: true,
   },
