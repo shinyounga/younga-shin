@@ -19,7 +19,7 @@ export const filmography: FilmWork[] = [
   { year: 2021, title: "Shelf Life of a Peach", titleKr: "복숭아의 유통기한", role: "Assistant Director", roleKr: "조연출", category: "directing", notable: "26th City Film Festival Competition", notableKr: "제26회 도시영화제 경쟁부문" },
   { year: 2021, title: "Lee Chunja", titleKr: "이춘자씨", role: "Documentary Director", roleKr: "다큐 연출", category: "directing" },
   { year: 2022, title: "Not an Angel", titleKr: "천사가 아니야", role: "Assistant Director", roleKr: "조연출", category: "directing" },
-  { year: 2025, title: "Haenam Cabbage", titleKr: "해남배추", role: "Script & Continuity", roleKr: "스크립터", category: "directing", link: "https://www.imdb.com/name/nm17437797/", notable: "IMDb / Sokcho Intl. Food Film Festival — Tasty Korean Short Film Competition (17min, Fiction)", notableKr: "IMDb / 속초국제음식영화제 오감만족 한국단편경선 (17분, 픽션)" },
+  { year: 2025, title: "Haenam Cabbage", titleKr: "해남배추", role: "Script & Continuity", roleKr: "스크립터", category: "directing", link: "https://www.imdb.com/name/nm17437797/", notable: "IMDb / Sokcho Intl. Food Film Festival / World Culture Film Festival / 12th Incheon Independent Film Festival / Indie Shorts Fest Semi-Finalist (17min, Fiction)", notableKr: "IMDb / 속초국제음식영화제 / World Culture Film Festival / 제12회 인천독립영화제 / Indie Shorts Fest Semi-Finalist (17분, 픽션)" },
 
   // Cinematography
   { year: 2020, title: "Just Take a Dump", titleKr: "일단 똥을 싸라", role: "Cinematographer", roleKr: "촬영", category: "cinematography" },
