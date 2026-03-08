@@ -1,9 +1,21 @@
 "use client";
 
-import { MapPin, GraduationCap, Film } from "lucide-react";
+import { MapPin, GraduationCap, Film, Mail, Github, Linkedin, BookOpen, ExternalLink } from "lucide-react";
+import { siteConfig } from "@/data/siteConfig";
 import SectionTitle from "../ui/SectionTitle";
 import ScrollReveal from "../ui/ScrollReveal";
 import { useLang } from "@/lib/useLang";
+
+const socialLinks = [
+  { key: "email", icon: Mail, label: "Email", href: `mailto:${siteConfig.email}`, display: siteConfig.email },
+  { key: "github", icon: Github, label: "GitHub", href: siteConfig.social.github },
+  { key: "linkedin", icon: Linkedin, label: "LinkedIn", href: siteConfig.social.linkedin },
+  { key: "scholar", icon: BookOpen, label: "Google Scholar", href: siteConfig.social.scholar },
+  { key: "orcid", icon: ExternalLink, label: "ORCID", href: siteConfig.social.orcid },
+  { key: "imdb", icon: Film, label: "IMDb", href: siteConfig.social.imdb },
+  { key: "blog", icon: ExternalLink, label: "Blog", href: siteConfig.social.blog },
+  { key: "instagram", icon: ExternalLink, label: "Instagram", href: siteConfig.social.instagram },
+];
 
 export default function AboutSection() {
   const { lang } = useLang();
@@ -15,6 +27,38 @@ export default function AboutSection() {
           title={lang === "ko" ? "소개" : "About Me"}
           subtitle={lang === "ko" ? "배경 & 관심사" : "Background & Interests"}
         />
+
+        {/* Contact & Social Links */}
+        <ScrollReveal>
+          <div className="mb-10 rounded-2xl border border-gray-100 bg-gray-50 p-6">
+            <div className="flex flex-wrap items-center gap-2 mb-4">
+              <MapPin size={16} className="text-gray-500" />
+              <span className="text-sm text-gray-700">{siteConfig.location}</span>
+              <span className="text-gray-300 mx-1">|</span>
+              <Mail size={16} className="text-gray-500" />
+              <a href={`mailto:${siteConfig.email}`} className="text-sm text-indigo-600 hover:underline">
+                {siteConfig.email}
+              </a>
+            </div>
+            <div className="flex flex-wrap gap-2">
+              {socialLinks.filter(s => s.key !== "email").map((link) => {
+                const Icon = link.icon;
+                return (
+                  <a
+                    key={link.key}
+                    href={link.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 rounded-full border border-gray-200 bg-white px-3 py-1.5 text-xs font-medium text-gray-600 transition-colors hover:border-indigo-300 hover:text-indigo-600"
+                  >
+                    <Icon size={14} />
+                    {link.label}
+                  </a>
+                );
+              })}
+            </div>
+          </div>
+        </ScrollReveal>
 
         <div className="grid gap-8 md:grid-cols-3">
           <ScrollReveal delay={0}>
