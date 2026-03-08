@@ -54,6 +54,9 @@ export const skills: SkillCategory[] = [
     categoryKr: "웹 / 도구",
     icon: "Code",
     skills: [
+      { name: "PowerPoint", level: 5, icon: "powerpoint" },
+      { name: "Excel", level: 4, icon: "excel" },
+      { name: "Word", level: 5, icon: "word" },
       { name: "Figma", level: 3, icon: "figma" },
       { name: "Notion", level: 5, icon: "notion" },
     ],
