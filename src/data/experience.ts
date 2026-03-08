@@ -6,6 +6,7 @@ export interface ExperienceItem {
   organizationKr?: string;
   period: string;
   sortYear?: number; // for chronological sorting (higher = more recent)
+  logo?: string; // path to logo image (relative to basePath)
   description?: string;
   descriptionKr?: string;
   details?: string[];
@@ -22,6 +23,7 @@ export const experience: ExperienceItem[] = [
     organizationKr: "연세대학교",
     period: "2024.09 — Present",
     sortYear: 2026,
+    logo: "/images/logos/yonsei.png",
     description: "Smart Infrastructure Laboratory, advised by Prof. Hongjo Kim",
     descriptionKr: "스마트인프라연구실, 김홍조 교수 지도",
     details: [
@@ -45,6 +47,7 @@ export const experience: ExperienceItem[] = [
     organizationKr: "ISTC — 커뮤니케이션 전략기술연구소, 프랑스 릴",
     period: "2023.08 — 2024.01",
     sortYear: 2024,
+    logo: "/images/logos/istc.png",
     description:
       "Studied Photoshop & Illustrator for content planning/production, consumer behavior theory for global brand strategy analysis, and era-specific brand communication strategy research with content creation",
     descriptionKr:
@@ -58,6 +61,7 @@ export const experience: ExperienceItem[] = [
     organizationKr: "동국대학교",
     period: "2019.03 — 2024.08",
     sortYear: 2024,
+    logo: "/images/logos/dongguk.png",
     description: "Summa Cum Laude, Advisor: Prof. Jongho Park",
     descriptionKr: "최우등 졸업, 지도교수: 박종호",
     details: [
@@ -113,6 +117,7 @@ export const experience: ExperienceItem[] = [
     organizationKr: "SBS 뉴스 (스브스뉴스)",
     period: "2021.07 — 2024.02",
     sortYear: 2024,
+    logo: "/images/logos/sbs.svg",
     description:
       "Covered a wide range of locations including indoor studios, outdoor events, festivals, university campuses, city centers, e-sports venues, and museums, handling interviews, live streaming, and on-site sketch filming",
     descriptionKr: "실내 스튜디오, 야외 행사장, 페스티벌, 대학가, 시내, e-스포츠, 박물관 등 다양한 현장에서 취재 및 인터뷰, 실시간 라이브 스트리밍, 현장 스케치 촬영",
@@ -160,6 +165,7 @@ export const experience: ExperienceItem[] = [
     organizationKr: "LX 한국국토정보공사",
     period: "2022",
     sortYear: 2022,
+    logo: "/images/logos/lx.svg",
     description: "Video planning, filming, and editing for promotional content",
     descriptionKr: "영상 기획, 촬영 및 편집",
     details: [
@@ -222,8 +228,18 @@ export const experience: ExperienceItem[] = [
     period: "2019.03 — 2020.12",
     sortYear: 2020,
     description:
-      "Barrier-free film education volunteer club: taught middle/high school students filmmaking and barrier-free concepts, guided full production process, completed barrier-free training, produced barrier-free versions of student films, and organized screening events",
+      "Barrier-free filmmaking Living Lab — Partnered with local community children's centers to provide barrier-free filmmaking education for underprivileged youth, offering opportunities for talent discovery and career exploration while fostering disability awareness",
     descriptionKr:
-      "중고등학생과 함께 배리어프리 영화를 만드는 교육봉사 동아리. 영화와 배리어프리에 대한 교육을 진행하며 영화 제작의 전반적인 과정을 함께 수행. 배리어프리 교육 이수 후 완성작을 배리어프리 버전으로 제작하고 상영회까지 진행",
+      "배리어프리 영화제작 리빙랩 — 지역아동센터 연계 저소득층 아이들을 대상으로 배리어프리 영화제작 교육을 통해 특기 적성 및 진로 탐색의 기회 뿐만 아니라 장애인식 개선 계기 마련",
+    details: [
+      "Selected for Irueeo DREAM Project (Goyang Youth Career Center) — Co-produced barrier-free short film <Dot> with Iruda School, Goyang",
+      "Produced non-profit barrier-free short films with student teams",
+      "Film <Dot>: https://youtu.be/hcUzDc-gZUc",
+    ],
+    detailsKr: [
+      "고양시청소년진로센터 이루어DREAM 프로젝트 선정 — 고양시 소재 이루다학교와 공동제작한 배리어프리 단편영화 <점>",
+      "비영리 목적의 배리어프리 단편영화 제작",
+      "단편영화 <점>: https://youtu.be/hcUzDc-gZUc",
+    ],
   },
 ];

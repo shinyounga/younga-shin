@@ -4,6 +4,7 @@ export interface AwardItem {
   titleKr: string;
   organization: string;
   organizationKr: string;
+  logo?: string;
 }
 
 export const scholarships: AwardItem[] = [
@@ -13,6 +14,7 @@ export const scholarships: AwardItem[] = [
     titleKr: "종로구장학회 장학금 (2026-1학기)",
     organization: "Jongno-gu Scholarship Foundation, Korea",
     organizationKr: "종로구장학회",
+    logo: "/images/logos/jongno.png",
   },
   {
     year: "2025.08",
@@ -20,6 +22,7 @@ export const scholarships: AwardItem[] = [
     titleKr: "종로구장학회 장학금 (2025-2학기)",
     organization: "Jongno-gu Scholarship Foundation, Korea",
     organizationKr: "종로구장학회",
+    logo: "/images/logos/jongno.png",
   },
   {
     year: "2025.02",
@@ -27,6 +30,7 @@ export const scholarships: AwardItem[] = [
     titleKr: "종로구장학회 장학금 (2025-1학기)",
     organization: "Jongno-gu Scholarship Foundation, Korea",
     organizationKr: "종로구장학회",
+    logo: "/images/logos/jongno.png",
   },
   {
     year: "2023",
@@ -34,6 +38,7 @@ export const scholarships: AwardItem[] = [
     titleKr: "해외문화탐방 지원 장학생 선발",
     organization: "Shimmyung Cultural Foundation",
     organizationKr: "심명문화재단",
+    logo: "/images/logos/shimmyung.png",
   },
   {
     year: "2023-2",
@@ -41,6 +46,7 @@ export const scholarships: AwardItem[] = [
     titleKr: "교환학생장학 (outbound 30% 학비감면)",
     organization: "Dongguk University",
     organizationKr: "동국대학교",
+    logo: "/images/logos/dongguk.png",
   },
   {
     year: "2023-1,2",
@@ -48,6 +54,7 @@ export const scholarships: AwardItem[] = [
     titleKr: "동국인재육성장학 (우수)",
     organization: "Dongguk University",
     organizationKr: "동국대학교",
+    logo: "/images/logos/dongguk.png",
   },
   {
     year: "2019-2024",
@@ -55,6 +62,7 @@ export const scholarships: AwardItem[] = [
     titleKr: "심명문화재단 장학금 (대학 4년 전액)",
     organization: "Shimmyung Cultural Foundation",
     organizationKr: "심명문화재단",
+    logo: "/images/logos/shimmyung.png",
   },
   {
     year: "2020-1, 2021-1",
@@ -62,6 +70,7 @@ export const scholarships: AwardItem[] = [
     titleKr: "성적우수장학 (학비감면)",
     organization: "Dongguk University",
     organizationKr: "동국대학교",
+    logo: "/images/logos/dongguk.png",
   },
   {
     year: "2020-1",
@@ -69,6 +78,7 @@ export const scholarships: AwardItem[] = [
     titleKr: "강좌별수석장학 (영상미학분석)",
     organization: "Dongguk University",
     organizationKr: "동국대학교",
+    logo: "/images/logos/dongguk.png",
   },
 ];
 

@@ -19,19 +19,19 @@ export const filmography: FilmWork[] = [
   { year: 2021, title: "Shelf Life of a Peach", titleKr: "복숭아의 유통기한", role: "Assistant Director", roleKr: "조연출", category: "directing", notable: "26th City Film Festival Competition", notableKr: "제26회 도시영화제 경쟁부문" },
   { year: 2021, title: "Lee Chunja", titleKr: "이춘자씨", role: "Documentary Director", roleKr: "다큐 연출", category: "directing" },
   { year: 2022, title: "Not an Angel", titleKr: "천사가 아니야", role: "Assistant Director", roleKr: "조연출", category: "directing" },
-  { year: 2025, title: "Haenam Cabbage", titleKr: "해남배추", role: "Script & Continuity", roleKr: "스크립터", category: "directing", notable: "Sokcho Intl. Food Film Festival / World Culture Film Festival / 12th Incheon Independent Film Festival / Indie Shorts Fest Semi-Finalist (17min, Fiction)", notableKr: "속초국제음식영화제 / World Culture Film Festival / 제12회 인천독립영화제 / Indie Shorts Fest Semi-Finalist (17분, 픽션)" },
+  { year: 2025, title: "Haenam Cabbage", titleKr: "해남배추", role: "Script & Continuity", roleKr: "스크립터", category: "directing", notable: "Sokcho Intl. Food Film Festival / World Culture Film Festival / 12th Incheon Independent Film Festival / Indie Shorts Fest Semi-Finalist", notableKr: "속초국제음식영화제 / World Culture Film Festival / 제12회 인천독립영화제 / Indie Shorts Fest Semi-Finalist" },
 
   // Cinematography
   { year: 2020, title: "Just Take a Dump", titleKr: "일단 똥을 싸라", role: "Cinematographer", roleKr: "촬영", category: "cinematography" },
-  { year: 2020, title: "At Changgyeonggung", titleKr: "창경궁에서", role: "Cinematographer / Planner", roleKr: "촬영 / 기획", category: "cinematography", link: "https://www.youtube.com/watch?v=rFpjk3HAqvM" },
+  { year: 2020, title: "At Changgyeonggung", titleKr: "창경궁에서", role: "Cinematographer / Planner", roleKr: "촬영 / 기획", category: "cinematography", link: "https://www.youtube.com/watch?v=rFpjk3HAqvM", notable: "2020 Cultural Heritage Video Contest — Idea Bank Award (Korea Cultural Heritage Foundation)", notableKr: "2020 문화유산채널 영상공모전 — 아이디어뱅크상 (한국문화재재단)" },
   { year: 2021, title: "Deliver Love with Flowers", titleKr: "꽃으로 마음을 전해요", role: "Cinematographer / Editor", roleKr: "촬영 / 편집", category: "cinematography", link: "https://youtu.be/9juBCtMlNB8" },
-  { year: 2021, title: "Dot", titleKr: "점", role: "Camera Crew", roleKr: "촬영부", category: "cinematography" },
+  { year: 2021, title: "Dot", titleKr: "점", role: "Camera Crew", roleKr: "촬영부", category: "cinematography", link: "https://youtu.be/hcUzDc-gZUc", notable: "Barrier-free short film co-produced with Iruda School, Goyang — Selected for Irueeo DREAM Project (Goyang Youth Career Center) / Dongguk Univ. LINC 3.0 / Nanumelbag", notableKr: "고양시 소재 이루다학교와 공동제작한 배리어프리 단편영화 — 고양시청소년진로센터 이루어DREAM 프로젝트 선정 / 동국대학교 LINC 3.0 사업단 / 나누멜바그 (제작현장: https://linc.dongguk.edu/eam/twin/program/1170)" },
 
   // Lighting
   { year: 2019, title: "When Looking into the Abyss", titleKr: "심연을 들여다볼 때", role: "Lighting Crew", roleKr: "조명부", category: "lighting" },
-  { year: 2024, title: "Suddenly, Home", titleKr: "갑자기 분위기 스파시바", role: "Lighting Crew", roleKr: "조명부", category: "lighting", notable: "KOFIC Independent Art Film Production Support 2020 (Short Film)", notableKr: "2020 상반기 독립예술영화제작지원사업 단편부문 선정 (영화진흥위원회)" },
+  { year: 2024, title: "Suddenly, Home", titleKr: "갑자기 분위기 스파시바", role: "Lighting Crew / Title Design", roleKr: "조명부 / 타이틀 디자인", category: "lighting", notable: "KOFIC Independent Art Film Production Support 2020 (Short Film)", notableKr: "2020 상반기 독립예술영화제작지원사업 단편부문 선정 (영화진흥위원회)" },
   { year: 2020, title: "Plant", titleKr: "식물", role: "Lighting", roleKr: "조명", category: "lighting" },
-  { year: 2020, title: "Jeans", titleKr: "청바지", role: "Lighting", roleKr: "조명", category: "lighting" },
+  { year: 2020, title: "Jeans", titleKr: "청바지", role: "Lighting", roleKr: "조명", category: "lighting", link: "https://youtu.be/v1-3e1sGPEM", notable: "Barrier-free short film — Selected for Irueeo DREAM Project (Goyang Youth Career Center) / Team Levi's / Nanumelbag", notableKr: "배리어프리 단편영화 — 고양시청소년진로센터 이루어DREAM 프로젝트 선정 / 리바이스팀 / 나누멜바그" },
   { year: 2021, title: "Film", titleKr: "필름", role: "Lighting Crew", roleKr: "조명부", category: "lighting" },
   { year: 2021, title: "Looking for Artists", titleKr: "예술인을 찾습니다", role: "Lighting", roleKr: "조명", category: "lighting" },
   { year: 2021, title: "My Shadow", titleKr: "나의 그림자", role: "Lighting / Sound", roleKr: "조명 / 사운드", category: "lighting" },
@@ -42,11 +42,10 @@ export const filmography: FilmWork[] = [
 
   // Other roles
   { year: 2019, title: "Picnic", titleKr: "소풍", role: "Production", roleKr: "제작부", category: "production" },
-  { year: 2024, title: "Suddenly, Home", titleKr: "갑자기 분위기 스파시바", role: "Title Design", roleKr: "타이틀 디자인", category: "other", notable: "KOFIC Independent Art Film Production Support 2020 (Short Film)", notableKr: "2020 상반기 독립예술영화제작지원사업 단편부문 선정 (영화진흥위원회)" },
   { year: 2020, title: "Complete Warmth", titleKr: "온전한 온기", role: "Producer", roleKr: "제작", category: "production" },
   { year: 2020, title: "Interview", titleKr: "인터뷰", role: "Sound", roleKr: "사운드", category: "other" },
   { year: 2020, title: "Complex", titleKr: "콤플렉스", role: "Actor", roleKr: "배우", category: "other" },
-  { year: 2022, title: "For Age 12 Level 1", titleKr: "12세용 1단계", role: "Boom Operator", roleKr: "붐 오퍼레이터", category: "other" },
+  { year: 2022, title: "For Age 12 Level 1", titleKr: "12세용 1단계", role: "Boom Operator", roleKr: "붐 오퍼레이터", category: "other", notable: "Barrier-free short film — Dongguk Univ. LINC 3.0 / Nanumelbag", notableKr: "배리어프리 단편영화 — 동국대학교 LINC 3.0 사업단 동아리 제작지원 / 나누멜바그" },
   { year: 2022, title: "Beyond the Frame", titleKr: "프레임너머", role: "Directing Support", roleKr: "연출지원", category: "other" },
 ];
 
@@ -65,6 +64,9 @@ export const professionalWork = [
     title: "Droma Mermaid Video",
     role: "Assistant Director",
     roleKr: "연출부",
+    link: "https://class101.net/ko/products/5f1c1133052090001cdf3172",
+    notable: "CLASS 101 — Online class lecture video",
+    notableKr: "CLASS 101 — 온라인 클래스 강의영상",
   },
   {
     year: 2020,
@@ -104,6 +106,8 @@ export const professionalWork = [
     title: "Theater <Coming Back> Promotional Video",
     role: "Production",
     roleKr: "제작부",
+    notable: "Seoul Arts Center, Double K Entertainment",
+    notableKr: "예술의전당, (주)더블케이엔터테인먼트",
   },
   {
     year: 2020,
@@ -119,13 +123,5 @@ export const professionalWork = [
     role: "Camera Crew",
     roleKr: "촬영부",
     link: "https://youtu.be/avmO3l70ug4",
-  },
-  {
-    year: 2021,
-    titleKr: "옥상달빛 - 인턴 MV",
-    title: "Rooftop Moonlight - Intern MV",
-    role: "Cinematographer / Editor",
-    roleKr: "촬영 / 편집",
-    link: "https://youtu.be/placeholder", // placeholder
   },
 ];
