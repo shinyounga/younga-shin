@@ -29,6 +29,13 @@ export const awards: AwardItem[] = [
     organizationKr: "종로구장학회",
   },
   {
+    year: "2023",
+    title: "Overseas Cultural Exploration Scholarship",
+    titleKr: "해외문화탐방 지원 장학생 선발",
+    organization: "Shimmyung Cultural Foundation",
+    organizationKr: "심명문화재단",
+  },
+  {
     year: "2023-2",
     title: "Exchange Student Scholarship (Outbound 30%)",
     titleKr: "교환학생장학 (outbound 30% 학비감면)",
