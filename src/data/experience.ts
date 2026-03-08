@@ -16,7 +16,7 @@ export const experience: ExperienceItem[] = [
   // === Education (newest first) ===
   {
     type: "education",
-    title: "M.S. in Civil and Environmental Engineering",
+    title: "Master of Engineering, Civil and Environmental Engineering",
     titleKr: "토목환경공학과 석사과정",
     organization: "Yonsei University",
     organizationKr: "연세대학교",
