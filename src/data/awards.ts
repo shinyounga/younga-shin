@@ -6,7 +6,7 @@ export interface AwardItem {
   organizationKr: string;
 }
 
-export const awards: AwardItem[] = [
+export const scholarships: AwardItem[] = [
   {
     year: "2026.02",
     title: "Jongno-gu Scholarship Foundation Scholarship",
@@ -70,6 +70,9 @@ export const awards: AwardItem[] = [
     organization: "Dongguk University",
     organizationKr: "동국대학교",
   },
+];
+
+export const awards: AwardItem[] = [
   {
     year: "2020.12",
     title: "2020 Cultural Heritage Video Contest — Idea Bank Award",
