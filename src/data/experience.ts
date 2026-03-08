@@ -150,10 +150,12 @@ export const experience: ExperienceItem[] = [
       "독립 단편영화를 대중에게 소개하며 국내외 단편영화 및 영화제와 관련된 이슈들을 다루는 인디매거진 객원필진 활동",
     period: "2021.03",
     details: [
-      "https://post.naver.com/funnycon",
+      "Magazine: https://post.naver.com/funnycon",
+      "Article: https://m.post.naver.com/viewer/postView.nhn?volumeNo=30979715&memberNo=16396899",
     ],
     detailsKr: [
-      "https://post.naver.com/funnycon",
+      "매거진: https://post.naver.com/funnycon",
+      "기고글: https://m.post.naver.com/viewer/postView.nhn?volumeNo=30979715&memberNo=16396899",
     ],
   },
   {
