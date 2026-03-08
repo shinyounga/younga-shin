@@ -23,9 +23,9 @@ export const certifications: Certification[] = [
   {
     name: "Korean History Proficiency Test — Level 1",
     nameKr: "한국사능력검정시험 1급",
-    issuer: "National Institute of Korean History",
-    issuerKr: "국사편찬위원회",
-    date: "2024.06",
+    issuer: "National Institute of Korean History (Credential ID: 70-101286)",
+    issuerKr: "국사편찬위원회 (자격번호: 70-101286)",
+    date: "2024.05",
   },
   {
     name: "Engineer Cadastral Surveying",
