@@ -12,9 +12,11 @@ export default function Header() {
 
   const navLabels: Record<string, { en: string; ko: string }> = {
     "#about": { en: "About", ko: "소개" },
+    "#experience": { en: "Experience", ko: "경력" },
     "#skills": { en: "Skills", ko: "기술" },
     "#projects": { en: "Projects", ko: "프로젝트" },
-    "#experience": { en: "Experience", ko: "경력" },
+    "#filmography": { en: "Films", ko: "필모그래피" },
+    "#certifications": { en: "Certs", ko: "자격증" },
     "#contact": { en: "Contact", ko: "연락처" },
   };
 

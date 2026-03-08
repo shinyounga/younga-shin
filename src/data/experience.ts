@@ -12,6 +12,7 @@ export interface ExperienceItem {
 }
 
 export const experience: ExperienceItem[] = [
+  // === Education ===
   {
     type: "education",
     title: "M.S. in Civil and Environmental Engineering",
@@ -33,30 +34,9 @@ export const experience: ExperienceItem[] = [
     ],
   },
   {
-    type: "work",
-    title: "Videographing Producer (Sub-cameraman)",
-    titleKr: "영상 프로듀서 (서브촬영)",
-    organization: "SBS NEWS",
-    organizationKr: "SBS 뉴스",
-    period: "2021 — 2024",
-    description:
-      "Digital content production across multiple flagship programs",
-    descriptionKr: "다수 대표 프로그램의 디지털 콘텐츠 제작",
-    details: [
-      "Programs: Moonmyung Express, Seoul List, Gagya, SBS News Original, Omokgyo Electronics, etc.",
-      "Sub-filming and post-production across 50+ episodes",
-      "Collaborated with PDs, journalists, and editors",
-    ],
-    detailsKr: [
-      "프로그램: 문명특급, 서울리스, 가갸거겨고교, 스브스뉴스, 오목교 전자상가, 재수서바이벌, 돈높이교육",
-      "50회 이상 에피소드 서브촬영 및 후반작업",
-      "PD, 기자, 편집자와 협업",
-    ],
-  },
-  {
     type: "education",
-    title: "B.A. in Film and Digital Media",
-    titleKr: "영화영상학과 학사",
+    title: "B.A. in Film and Digital Media (Minor: Media Communication)",
+    titleKr: "영화영상학과 학사 (부전공: 미디어커뮤니케이션학)",
     organization: "Dongguk University",
     organizationKr: "동국대학교",
     period: "2019 — 2024",
@@ -65,10 +45,14 @@ export const experience: ExperienceItem[] = [
     details: [
       "GPA: 4.22 / 4.5",
       "Produced 40+ short films",
+      "2021 College of Arts Student Council Secretary General",
+      "2020-2021 Dongguk Film Festival Planning & Operations Team Leader",
     ],
     detailsKr: [
       "GPA: 4.22 / 4.5",
       "40편 이상 단편영화 제작",
+      "2021 예술대학 학생회 사무국장",
+      "2020-2021 동국영화제 기획운영팀장",
     ],
   },
   {
@@ -79,10 +63,57 @@ export const experience: ExperienceItem[] = [
     organizationKr: "ISTC, 프랑스 릴",
     period: "2023.08 — 2023.12",
     description:
-      "Studied media communication in France, gaining global perspective on visual storytelling",
+      "Studied media communication in France, gaining global perspective",
     descriptionKr:
-      "프랑스에서 미디어커뮤니케이션학 수학, 글로벌 시각적 스토리텔링 역량 강화",
+      "프랑스에서 미디어커뮤니케이션학 수학, 글로벌 시각 확장",
   },
+
+  // === Work ===
+  {
+    type: "work",
+    title: "Sub-filming PD",
+    titleKr: "서브촬영 PD",
+    organization: "SBS NEWS (스브스뉴스)",
+    organizationKr: "SBS 뉴스 (스브스뉴스)",
+    period: "2021.07 — 2024.02",
+    description:
+      "Digital content filming across multiple flagship programs",
+    descriptionKr: "다수 대표 프로그램의 디지털 콘텐츠 서브촬영",
+    details: [
+      "Programs: Moonmyung Express, Seoul List, Gagya, SBS News Original, Omokgyo Electronics, Don Education, Jaesu Survival",
+      "Sub-filming across 50+ episodes",
+    ],
+    detailsKr: [
+      "프로그램: 문명특급, 서울리스, 가갸거겨고교, 스브스뉴스 오리지널, 오목교 전자상가, 돈높이교육, 재수서바이벌",
+      "50회 이상 에피소드 서브촬영",
+    ],
+  },
+  {
+    type: "work",
+    title: "Freelance Assistant Director & Camera Crew",
+    titleKr: "프리랜서 연출부 & 촬영부",
+    organization: "Various Productions",
+    organizationKr: "다수 프로덕션",
+    period: "2020 — 2022",
+    description:
+      "Worked on commercial ads, MVs, and promotional videos",
+    descriptionKr:
+      "광고, 뮤직비디오, 홍보영상 제작 참여",
+    details: [
+      "Fendi Renaissance - Anima Mundi: Seoul (AD)",
+      "Hyundai Glovis New HQ Promotional Video (AD)",
+      "Bling Bling - Oh MAMA MV (AD)",
+      "Kakao Mini / Tina Home Party viral ads (AD)",
+    ],
+    detailsKr: [
+      "Fendi Renaissance - Anima Mundi: Seoul (연출부)",
+      "현대글로비스 신사옥 홍보영상 (연출부)",
+      "블링블링 - Oh MAMA MV (연출부)",
+      "카카오미니 / 티나 홈파티 바이럴 광고 (연출부)",
+    ],
+  },
+
+  // === Activities ===
   {
     type: "activity",
     title: "National Supporters 'Land Lover' — Video Journalist",
@@ -90,9 +121,23 @@ export const experience: ExperienceItem[] = [
     organization: "LX Korea Land & Geospatial Informatix Corp.",
     organizationKr: "LX 한국국토정보공사",
     period: "2022",
-    description: "Video planning and production for promotional content",
-    descriptionKr: "영상 기획 및 제작",
+    description: "Video planning, filming, and editing for promotional content",
+    descriptionKr: "영상 기획, 촬영 및 편집",
+    details: [
+      "2022 World Smart City Expo coverage",
+      "2022 Smart Land Expo coverage",
+      "LX Space Dream Center promotional content",
+      "3D Cultural Heritage Service introduction video",
+    ],
+    detailsKr: [
+      "2022 월드 스마트시티 엑스포 취재",
+      "2022 스마트국토 엑스포 취재",
+      "LX공간드림센터 홍보 콘텐츠",
+      "3D 문화유산 서비스 소개 영상",
+    ],
   },
+
+  // === Awards ===
   {
     type: "award",
     title: "Cultural Heritage Video Contest — Idea Bank Award",
@@ -105,6 +150,8 @@ export const experience: ExperienceItem[] = [
     descriptionKr:
       "수상작 <창경궁에서> — 촬영 및 기획",
   },
+
+  // === Volunteer ===
   {
     type: "volunteer",
     title: "Barrier-Free Film Education Volunteer",
@@ -113,8 +160,8 @@ export const experience: ExperienceItem[] = [
     organizationKr: "나누멜바그 (리빙랩)",
     period: "2019 — 2020",
     description:
-      "Taught youth to create barrier-free films as part of an educational volunteering club",
+      "Taught youth to create barrier-free films; created audio descriptions for Seoul Senior Film Festival",
     descriptionKr:
-      "청소년과 함께 배리어프리 영화를 만드는 교육봉사 동아리",
+      "청소년과 함께 배리어프리 영화를 만드는 교육봉사; 서울노인영화제 폐막작 배리어프리 화면해설 제작",
   },
 ];

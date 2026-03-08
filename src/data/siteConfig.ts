@@ -18,9 +18,11 @@ export const siteConfig = {
   },
   navLinks: [
     { label: "About", href: "#about" },
+    { label: "Experience", href: "#experience" },
     { label: "Skills", href: "#skills" },
     { label: "Projects", href: "#projects" },
-    { label: "Experience", href: "#experience" },
+    { label: "Filmography", href: "#filmography" },
+    { label: "Certifications", href: "#certifications" },
     { label: "Contact", href: "#contact" },
   ],
 };
