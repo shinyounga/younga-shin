@@ -109,6 +109,45 @@ export default function AboutSection() {
             </div>
           </ScrollReveal>
         </div>
+
+        {/* Storytelling */}
+        <ScrollReveal delay={0.3}>
+          <div className="mt-10 rounded-2xl border border-gray-100 bg-gradient-to-br from-indigo-50/50 to-purple-50/50 p-8">
+            <blockquote className="text-base leading-relaxed text-gray-700 md:text-lg">
+              {lang === "ko" ? (
+                <>
+                  <p>
+                    저는 하나의 분야에 머무르지 않습니다.
+                  </p>
+                  <p className="mt-4">
+                    카메라 뒤에서 조명을 세팅하고, 편집실에서 밤을 새우고, SBS 촬영 현장을 누비던 사람이 어느 날 Python으로 딥러닝 모델을 돌리고 있습니다. 영화를 만들던 손으로 논문을 쓰고, 브랜드 전략을 기획하던 머리로 AI 시스템을 설계합니다.
+                  </p>
+                  <p className="mt-4">
+                    촬영, 조명, 편집 같은 현장 기술부터 프로그래밍과 AI, 기획과 글쓰기까지 — 필요한 건 뭐든 배우고, 어디서든 기여합니다. 한 가지만 잘하는 사람이 아니라, <span className="font-semibold text-indigo-700">무엇이든 맡으면 해내는 사람</span>입니다.
+                  </p>
+                  <p className="mt-4 text-sm text-gray-500 italic">
+                    사진과 영상으로 기록하고, 기술과 데이터로 문제를 해결합니다.
+                  </p>
+                </>
+              ) : (
+                <>
+                  <p>
+                    I don&apos;t stay in one lane.
+                  </p>
+                  <p className="mt-4">
+                    I went from setting up lights on film sets and pulling all-nighters in the editing room to running deep learning models in Python. The same hands that made films now write research papers; the same mind that planned brand strategies now designs AI systems.
+                  </p>
+                  <p className="mt-4">
+                    From on-set skills like cinematography, lighting, and editing to programming, AI, planning, and writing — I learn whatever is needed and contribute wherever I can. I&apos;m not someone who does just one thing well. I&apos;m <span className="font-semibold text-indigo-700">someone who gets things done, whatever the task</span>.
+                  </p>
+                  <p className="mt-4 text-sm text-gray-500 italic">
+                    I document the world through images, and solve problems through technology and data.
+                  </p>
+                </>
+              )}
+            </blockquote>
+          </div>
+        </ScrollReveal>
       </div>
     </section>
   );
