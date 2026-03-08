@@ -70,6 +70,15 @@ export const experience: ExperienceItem[] = [
       "전공: 브랜딩 & 비주얼 아이덴티티, 다문화 커뮤니케이션, 글로벌 브랜드 전략",
   },
 
+  {
+    type: "education",
+    title: "Baehwa Girls' High School (Liberal Arts Track)",
+    titleKr: "배화여자고등학교 (인문계)",
+    organization: "Baehwa Girls' High School, Seoul",
+    organizationKr: "배화여자고등학교, 서울특별시",
+    period: "2016.03 — 2019.02",
+  },
+
   // === Work ===
   {
     type: "work",
