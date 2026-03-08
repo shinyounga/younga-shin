@@ -51,6 +51,7 @@ export default function SkillsSection() {
                         key={skill.name}
                         name={skill.name}
                         level={skill.level}
+                        icon={skill.icon}
                       />
                     ))}
                   </div>
