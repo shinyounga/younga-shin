@@ -47,13 +47,13 @@ export const experience: ExperienceItem[] = [
     details: [
       "GPA: 4.22 / 4.5",
       "Produced 40+ short films",
-      "2021 College of Arts Student Council Secretary General",
+      "2021 35th College of Arts Student Council 'YELLOW' — Secretary General: Led student welfare initiatives (partnerships, facility inspections, arts info sharing, job board, snack events), conducted surveys, and reported student grievances to campus facilities & academic operations teams",
       "2020-2021 Dongguk Film Festival Planning & Operations Team Leader",
     ],
     detailsKr: [
       "GPA: 4.22 / 4.5",
       "40편 이상 단편영화 제작",
-      "2021 예술대학 학생회 사무국장",
+      "2021 제35대 예술대학 학생회 'YELLOW' 사무국장: 제휴, 시설 점검단, 예술 관련 정보 공유, 구인구직 오픈카톡, 간식행사 등 학생 복지 사업 진행 및 설문조사·서류 작성, 학생 불편사항 수집·교내 시설팀·학사운영팀 전달",
       "2020-2021 동국영화제 기획운영팀장",
     ],
   },
