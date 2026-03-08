@@ -48,6 +48,13 @@ export const certifications: Certification[] = [
     issuerKr: "국가기술자격증",
     date: "2022.03",
   },
+  {
+    name: "Driver's License (Class 1 Regular)",
+    nameKr: "1종 보통 운전면허",
+    issuer: "Seoul Metropolitan Police Agency",
+    issuerKr: "서울특별시경찰청",
+    date: "2021.02",
+  },
 ];
 
 export const testScores: TestScore[] = [
