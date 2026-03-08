@@ -56,7 +56,7 @@ export const experience: ExperienceItem[] = [
     titleKr: "영화영상학과 학사 (부전공: 미디어커뮤니케이션학)",
     organization: "Dongguk University",
     organizationKr: "동국대학교",
-    period: "2019 — 2024",
+    period: "2019.03 — 2024.08",
     sortYear: 2024,
     description: "Summa Cum Laude, Advisor: Prof. Jongho Park",
     descriptionKr: "최우등 졸업, 지도교수: 박종호",
