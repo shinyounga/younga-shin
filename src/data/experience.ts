@@ -26,11 +26,13 @@ export const experience: ExperienceItem[] = [
       "GPA: 4.22 / 4.3",
       "Focus: AI & Deep Learning for Construction Engineering",
       "Research: Worker health monitoring, Water level forecasting, RAG systems",
+      "TA Scholarship (2024-2): Engineering Information Processing (ENG1108)",
     ],
     detailsKr: [
       "GPA: 4.22 / 4.3",
       "연구 분야: 건설공학을 위한 AI 및 딥러닝",
       "연구 주제: 작업자 건강 모니터링, 수위 예측, RAG 시스템",
+      "재학조교장학금(TA) (2024-2학기): 공학정보처리 (ENG1108)",
     ],
   },
   {
@@ -40,8 +42,8 @@ export const experience: ExperienceItem[] = [
     organization: "Dongguk University",
     organizationKr: "동국대학교",
     period: "2019 — 2024",
-    description: "Summa Cum Laude",
-    descriptionKr: "수석 졸업 (최우등)",
+    description: "Summa Cum Laude, Advisor: Prof. Jongho Park",
+    descriptionKr: "최우등 졸업, 지도교수: 박종호",
     details: [
       "GPA: 4.22 / 4.5",
       "Produced 40+ short films",
@@ -59,13 +61,13 @@ export const experience: ExperienceItem[] = [
     type: "education",
     title: "Exchange Student — Media Communication",
     titleKr: "교환학생 — 미디어커뮤니케이션학",
-    organization: "ISTC, Lille, France",
-    organizationKr: "ISTC, 프랑스 릴",
+    organization: "ISTC — Institut des Stratégies et Techniques de Communication, Lille, France",
+    organizationKr: "ISTC — 커뮤니케이션 전략기술연구소, 프랑스 릴",
     period: "2023.08 — 2023.12",
     description:
-      "Studied media communication in France, gaining global perspective",
+      "Focus: Branding & Visual Identity, Intercultural Communication, Global Brand Strategy",
     descriptionKr:
-      "프랑스에서 미디어커뮤니케이션학 수학, 글로벌 시각 확장",
+      "전공: 브랜딩 & 비주얼 아이덴티티, 다문화 커뮤니케이션, 글로벌 브랜드 전략",
   },
 
   // === Work ===

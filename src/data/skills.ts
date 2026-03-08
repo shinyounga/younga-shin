@@ -1,6 +1,7 @@
 export interface Skill {
   name: string;
   level: number; // 1-5
+  icon?: string; // devicon class name or CDN URL
 }
 
 export interface SkillCategory {
@@ -16,8 +17,8 @@ export const skills: SkillCategory[] = [
     categoryKr: "인공지능 / 머신러닝",
     icon: "Brain",
     skills: [
-      { name: "Python", level: 5 },
-      { name: "PyTorch", level: 4 },
+      { name: "Python", level: 5, icon: "python" },
+      { name: "PyTorch", level: 4, icon: "pytorch" },
       { name: "Deep Learning", level: 4 },
       { name: "NLP / RAG", level: 4 },
       { name: "Computer Vision", level: 4 },
@@ -30,9 +31,9 @@ export const skills: SkillCategory[] = [
     icon: "Building",
     skills: [
       { name: "BIM / Revit", level: 4 },
-      { name: "Docker", level: 3 },
-      { name: "Git / GitHub", level: 4 },
-      { name: "Linux", level: 3 },
+      { name: "Docker", level: 3, icon: "docker" },
+      { name: "Git / GitHub", level: 4, icon: "git" },
+      { name: "Linux", level: 3, icon: "linux" },
       { name: "Data Analysis", level: 4 },
       { name: "IoT Sensors", level: 3 },
     ],
@@ -43,9 +44,9 @@ export const skills: SkillCategory[] = [
     icon: "Film",
     skills: [
       { name: "Final Cut Pro", level: 5 },
-      { name: "Premiere Pro", level: 5 },
-      { name: "After Effects", level: 4 },
-      { name: "Photoshop", level: 4 },
+      { name: "Premiere Pro", level: 5, icon: "premierepro" },
+      { name: "After Effects", level: 4, icon: "aftereffects" },
+      { name: "Photoshop", level: 4, icon: "photoshop" },
       { name: "Video Production", level: 5 },
       { name: "Storytelling", level: 5 },
     ],
@@ -55,12 +56,12 @@ export const skills: SkillCategory[] = [
     categoryKr: "웹 / 도구",
     icon: "Code",
     skills: [
-      { name: "Next.js", level: 3 },
-      { name: "TypeScript", level: 3 },
-      { name: "Tailwind CSS", level: 3 },
-      { name: "Figma", level: 3 },
-      { name: "LaTeX", level: 4 },
-      { name: "Notion", level: 5 },
+      { name: "Next.js", level: 3, icon: "nextjs" },
+      { name: "TypeScript", level: 3, icon: "typescript" },
+      { name: "Tailwind CSS", level: 3, icon: "tailwindcss" },
+      { name: "Figma", level: 3, icon: "figma" },
+      { name: "LaTeX", level: 4, icon: "latex" },
+      { name: "Notion", level: 5, icon: "notion" },
     ],
   },
 ];

@@ -1,7 +1,7 @@
 "use client";
 
-import { Award, Languages } from "lucide-react";
-import { certifications, testScores } from "@/data/certifications";
+import { Award, Languages, Globe } from "lucide-react";
+import { certifications, testScores, languages } from "@/data/certifications";
 import SectionTitle from "../ui/SectionTitle";
 import ScrollReveal from "../ui/ScrollReveal";
 import { useLang } from "@/lib/useLang";
@@ -16,12 +16,12 @@ export default function CertificationsSection() {
           title={lang === "ko" ? "자격증 & 어학" : "Certifications & Languages"}
           subtitle={
             lang === "ko"
-              ? "국가자격증 및 어학 성적"
+              ? "국가자격증 및 어학 능력"
               : "Professional certifications & language proficiency"
           }
         />
 
-        <div className="grid gap-8 md:grid-cols-2">
+        <div className="grid gap-8 md:grid-cols-3">
           {/* Certifications */}
           <ScrollReveal>
             <div className="rounded-2xl border border-gray-100 bg-gray-50 p-6">
@@ -36,7 +36,9 @@ export default function CertificationsSection() {
               <ul className="space-y-3">
                 {certifications.map((cert) => (
                   <li key={cert.nameKr} className="flex items-start gap-3">
-                    <span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-amber-400" />
+                    <span className="mt-0.5 shrink-0 text-xs font-mono text-gray-400 w-16">
+                      {cert.date}
+                    </span>
                     <div>
                       <p className="text-sm font-semibold text-gray-800">
                         {lang === "ko" ? cert.nameKr : cert.name}
@@ -59,12 +61,15 @@ export default function CertificationsSection() {
                   <Languages size={20} />
                 </div>
                 <h3 className="text-lg font-bold text-gray-900">
-                  {lang === "ko" ? "어학 성적" : "Language Scores"}
+                  {lang === "ko" ? "어학 성적" : "Test Scores"}
                 </h3>
               </div>
               <ul className="space-y-4">
                 {testScores.map((test) => (
-                  <li key={test.name} className="rounded-xl bg-white p-4 shadow-sm">
+                  <li
+                    key={test.name}
+                    className="rounded-xl bg-white p-4 shadow-sm"
+                  >
                     <div className="flex items-baseline justify-between">
                       <span className="text-sm font-semibold text-gray-800">
                         {test.name}
@@ -78,6 +83,33 @@ export default function CertificationsSection() {
                         {test.detail}
                       </p>
                     )}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </ScrollReveal>
+
+          {/* Languages */}
+          <ScrollReveal delay={0.2}>
+            <div className="rounded-2xl border border-gray-100 bg-gray-50 p-6">
+              <div className="mb-5 flex items-center gap-3">
+                <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-emerald-100 text-emerald-600">
+                  <Globe size={20} />
+                </div>
+                <h3 className="text-lg font-bold text-gray-900">
+                  {lang === "ko" ? "언어" : "Languages"}
+                </h3>
+              </div>
+              <ul className="space-y-4">
+                {languages.map((l) => (
+                  <li
+                    key={l.name}
+                    className="rounded-xl bg-white p-4 shadow-sm"
+                  >
+                    <p className="text-sm font-semibold text-gray-800">
+                      {lang === "ko" ? l.nameKr : l.name}
+                    </p>
+                    <p className="mt-1 text-xs text-gray-500">{l.level}</p>
                   </li>
                 ))}
               </ul>

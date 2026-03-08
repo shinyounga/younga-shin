@@ -20,9 +20,9 @@ export const siteConfig = {
     { label: "About", href: "#about" },
     { label: "Experience", href: "#experience" },
     { label: "Skills", href: "#skills" },
-    { label: "Projects", href: "#projects" },
-    { label: "Filmography", href: "#filmography" },
-    { label: "Certifications", href: "#certifications" },
+    { label: "Research", href: "#projects" },
+    { label: "Publications", href: "#publications" },
+    { label: "Films", href: "#filmography" },
     { label: "Contact", href: "#contact" },
   ],
 };
